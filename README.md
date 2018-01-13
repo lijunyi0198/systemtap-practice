@@ -13,8 +13,8 @@ systemtap practice
   ```
   yum install kernel-devel-`uname -r`  # From ISO
 
-  yum install -y http://debuginfo.centos.org/6/`uname -m`/kernel-debuginfo-common-`uname -m`-`uname -r`.rpm
-  yum install -y http://debuginfo.centos.org/6/`uname -m`/kernel-debuginfo-`uname -r`.rpm
+  yum install -y http://mirror.nsc.liu.se/centos-debuginfo/6/`uname -m`/kernel-debuginfo-common-`uname -m`-`uname -r`.rpm
+  yum install -y http://mirror.nsc.liu.se/centos-debuginfo/6/`uname -m`/kernel-debuginfo-`uname -r`.rpm
 
   yum install -y systemtap
 
